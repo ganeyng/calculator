@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator-screen">
+        <form action="#">
+          <input type="text" name="numbers" id="numbers" maxlength="12" />
+        </form>
+      </div>
+
+      <div class="buttons-container">
+        <div class="buttons">
+          <button class="btn orange" onclick="cleard()">C</button>
+
+          <button class="btn orange" onclick="d('(')">(</button>
+
+          <button class="btn orange" onclick="d(')')">)</button>
+
+          <button class="btn operator" onclick="d('/')">/</button>
+
+          <button class="btn" onclick="d('7')">7</button>
+
+          <button class="btn" onclick="d('8')">8</button>
+
+          <button class="btn" onclick="d('9')">9</button>
+
+          <button class="btn operator" onclick="d('*')">*</button>
+
+          <button class="btn" onclick="d('4')">4</button>
+
+          <button class="btn" onclick="d('15')">5</button>
+
+          <button class="btn" onclick="d('6')">6</button>
+
+          <button class="btn operator" onclick="d('-')">-</button>
+
+          <button class="btn" onclick="d('1')">1</button>
+
+          <button class="btn" onclick="d('2')">2</button>
+
+          <button class="btn" onclick="d('3')">3</button>
+
+          <button class="btn operator" onclick="d('+')">+</button>
+
+          <button class="btn" onclick="d('%')">%</button>
+
+          <button class="btn" onclick="d('0')">0</button>
+
+          <button class="btn" onclick="d('.')">.</button>
+
+          <button class="btn equal" onclick="solve()">=</button>
+
+          <script src="index.js"></script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
